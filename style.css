@@ -163,6 +163,10 @@ nav button {
     justify-content: space-between;
 }
 
+.side1 h4{
+    font-size: 20px;
+}
+
 .side2 img{
     width: 250px;
 }
