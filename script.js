@@ -5,7 +5,7 @@ tl.from("nav h1, nav h4, nav button",{
     y:-20,
     opacity:0,
     duration:0.5,
-    delay:0.8,
+    delay:0.5,
     stagger:0.2
 })
 tl.from(".center-part1 h1",{
@@ -32,7 +32,7 @@ tl.from(".section1bottom img", {
     opacity:0,
     y:30,
     stagger:0.2,
-    duration:0.5
+    duration:0.2
 })
 }
 
@@ -80,3 +80,27 @@ tl2.from(".right2",{
     duration:1,
     delay:0.5
 }, "anim2")
+
+var tl3 = gsap.timeline({
+    scrollTrigger:{
+        trigger:".last",
+        scroller:"body",
+        strat:"top 50%",
+    }
+})
+
+tl3.from(".make",{
+    y:500,
+    opacity:0,
+    duration:0.8
+})
+tl3.from(".case",{
+    x:-500,
+    opacity:0,
+    duration:0.5
+})
+tl3.from(".last",{
+    x:500,
+    opacity:0,
+    duration:0.5
+})
