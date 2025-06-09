@@ -156,17 +156,48 @@ nav button {
     width: 40%;
     border: 3px solid white;
     border-radius: 50px;
-    background-color: red;
+    /* background-color: red; */
     box-shadow: 15px 20px 10px black;
     padding: 60px;
     display: flex;
     justify-content: space-between;
 }
 
-.side1 h4{
-    font-size: 20px;
+.side1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.side2 img{
+.side1 h4 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.side1 h4 img {
+    width: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.side2 img {
     width: 250px;
+}
+
+.cl1{
+    background-color: #00ab91;
+    color: black;
+    font-size: 25px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.cl2{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    width: 70%;
+    border-radius: 10px;
 }
