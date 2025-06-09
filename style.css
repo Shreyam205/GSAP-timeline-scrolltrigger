@@ -8,6 +8,9 @@
     font-optical-sizing: auto;
     font-weight: 600;
 }
+body{
+    overflow-x: hidden;
+}
 
 body,
 html {
