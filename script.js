@@ -38,7 +38,8 @@ tl.from(".section1bottom img", {
 
 page1Animation()
 
-var tl2 = gsap.timeline({
+function page2Animation(){
+    var tl2 = gsap.timeline({
     scrollTrigger:{
         trigger:".services h3",
         scroller:"body",
@@ -80,8 +81,12 @@ tl2.from(".right2",{
     duration:1,
     delay:0.5
 }, "anim2")
+}
 
-var tl3 = gsap.timeline({
+page2Animation()
+
+function page3Animation(){
+    var tl3 = gsap.timeline({
     scrollTrigger:{
         trigger:".last",
         scroller:"body",
@@ -104,3 +109,6 @@ tl3.from(".last",{
     opacity:0,
     duration:0.5
 })
+}
+
+page3Animation()
