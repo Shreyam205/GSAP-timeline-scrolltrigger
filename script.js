@@ -36,6 +36,8 @@ tl.from(".section1bottom img", {
 })
 }
 
+page1Animation()
+
 var tl2 = gsap.timeline({
     scrollTrigger:{
         trigger:".services h3",
